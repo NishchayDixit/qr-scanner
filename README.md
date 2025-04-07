@@ -5,30 +5,6 @@ A modern Chrome extension that generates QR codes for the current tab URL. Inclu
 
 ---
 
-## 📂 Project Structure
-
-```
-├── public/                  # Static assets (icons, logos)
-│   └── assets/
-├── src/
-│   ├── assets/              # Internal images
-│   ├── common/              # Shared types, constants, and configs
-│   ├── components/          # Main components
-│   │   ├── HistoryList/
-│   │   ├── QRCodeGenerator/
-│   │   └── QRCodeScanner/
-│   ├── lib/                 # App shell (App.tsx, main.tsx)
-│   └── ui/                  # UI atoms/molecules (optional/future)
-├── manifest.json            # Chrome extension manifest (v3)
-├── index.html               # Entry HTML file
-├── package.json             # Project metadata & dependencies
-├── vite.config.ts           # Vite configuration
-├── tsconfig.*.json          # TypeScript configuration files
-└── README.md                # You're here!
-```
-
----
-
 ## ✨ Features
 
 - 🔗 **Auto-generate QR** for the current tab URL
